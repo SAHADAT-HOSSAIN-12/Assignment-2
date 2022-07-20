@@ -112,13 +112,10 @@ button{
 .box a{
     text-decoration: none;
     color: #161616;
-    /* padding-top: 10px; */
-    padding: 10%;
-    margin-bottom: 20px;
+    padding-top: 18px;
+    /* padding: 10%; */
+    /* margin-bottom: 20px; */
     /* border: 2px solid #B9B9B9; */
-}
-.box a:active{
-    color: aqua;
 }
 .box-1{
     background-color: #DD0000;
