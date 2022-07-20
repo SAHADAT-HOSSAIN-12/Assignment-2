@@ -8,14 +8,14 @@ body{
         font-family: 'Open Sans', sans-serif;
         font-family: 'Poppins', sans-serif;
         font-family: 'Roboto', sans-serif;
-        font-family: 'Rubik Moonrocks', cursive;
+        /* font-family: 'Rubik Moonrocks', cursive; */
 }
 .container{
     margin: 0 120px;
     margin-top: 50px;
 }
 /* ==========================================================================
-        Header Sectin Style
+        Header Section Style
 -------------------------------------------------------------------------- */
 header{
     background-color: #161616;
@@ -24,7 +24,19 @@ header{
     grid-template-columns: repeat(2, 1fr);
     padding: 0 80px;
     align-items: center;
-    
+    transition: all 2s;
+}
+header:hover{
+    /* transform: rotate(10deg); */
+    transform: rotateX(20deg);
+    /* transform: rotateY(20deg); */
+    /* transform: rotateZ(10deg); */
+    transform: scale();
+    transform: matrix();
+    transform: skew();
+    transform: perspective();
+    /* transform: translate(10px); */
+    /* transform: inherit; */
 }
 .head-details{
     /* color: #B9B9B9; */
@@ -36,6 +48,11 @@ header{
 .head-details p{
     color: #B9B9B9;
 }
+/* .blog-text{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+} */
 .button-box{
     margin-top: 50px;
 }
@@ -57,6 +74,9 @@ header{
 }
 .button-box i{
     padding-left: 10px;
+}
+button{
+    cursor: pointer;
 }
 /* ==========================================================================
         Main Section Style
@@ -102,9 +122,11 @@ header{
 }
 .box-1{
     background-color: #DD0000;
+    color: white;
 }
 .box-3{
     background-color: #DD0000;
+    color: white;
 }
 .tex{
     display: flex;
@@ -172,6 +194,7 @@ footer h3{
     font-size: 45px;
     color: white;
     padding-top: 50px;
+    font-family: 'Rubik Moonrocks', cursive;
 }
 .footer-details{
     padding: 50px 0;
