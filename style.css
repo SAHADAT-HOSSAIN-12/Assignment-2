@@ -1,0 +1,336 @@
+/* ==========================================================================
+        Diffuolt Style
+-------------------------------------------------------------------------- */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arima', cursive;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Rubik Moonrocks', cursive;
+}
+.container{
+    margin: 0 120px;
+    margin-top: 50px;
+}
+/* ==========================================================================
+        Header Sectin Style
+-------------------------------------------------------------------------- */
+header{
+    background-color: #161616;
+    display: grid;
+    border-radius: 25px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 80px;
+    align-items: center;
+    
+}
+.head-details{
+    /* color: #B9B9B9; */
+}
+.head-details h1{
+    color: white;
+    font-size: 50px;
+}
+.head-details p{
+    color: #B9B9B9;
+}
+.button-box{
+    margin-top: 50px;
+}
+.button-box a{
+    text-decoration: none;
+    color: white;
+    background-color: #DD0000;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+.head-image{
+    width: 100%;
+}
+.head-image img{
+    width: 100%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+.button-box i{
+    padding-left: 10px;
+}
+/* ==========================================================================
+        Main Section Style
+-------------------------------------------------------------------------- */
+/* Direction-Box */
+.main{
+    display: flex;
+}
+.direction-boxes{
+    background-color: #161616;
+    border-radius: 10px;
+    height: 245px;
+    width: 250px;
+    display: inline;
+    text-align: center;
+    margin-right: 20px;
+    
+}
+.box{
+    height: 55px;
+    width: 210px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+.box:hover{
+    background-color: #DD0000;
+    color: white;
+}
+.box:hover a{
+    color: white;
+}
+.box a{
+    text-decoration: none;
+    color: #161616;
+    /* padding-top: 10px; */
+    padding: 10%;
+    margin-bottom: 20px;
+    /* border: 2px solid #B9B9B9; */
+}
+.box a:active{
+    color: aqua;
+}
+.box-1{
+    background-color: #DD0000;
+}
+.box-3{
+    background-color: #DD0000;
+}
+.tex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Cards Section */
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.card{
+    /* box-shadow: 0.5px 0.5px 15px; */
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.card-imgage {
+    width: 100%;
+}
+
+.card-imgage img {
+    width: 100%;
+}
+.card-details{
+    padding: 15px;
+}
+button{
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+.card-details i{
+    color: ;
+    padding-right: 10px;
+}
+.space{
+    margin-right: 25px;
+}
+.view-all-button {
+    /* visibility: hidden; */
+    display: none;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.view-all-button a {
+    text-decoration: none;
+    background-color: #DD0000;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+/* ==========================================================================
+        Footer Section Style
+-------------------------------------------------------------------------- */
+footer{
+    background-color: #161616;
+    text-align: center;
+    
+}
+footer h3{
+    font-size: 45px;
+    color: white;
+    padding-top: 50px;
+}
+.footer-details{
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+.footer-details a{
+    color: #B9B9B9;
+    text-decoration: none;
+    padding: 20px;
+}
+hr{
+    margin: 0 120px;
+}
+.socail-media{
+    /* background-color: #B9B9B9; */
+    color: aliceblue;
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+.socail-media i{
+    padding: 15px;
+    cursor: pointer;
+}
+.socail-media i:visited{
+    color: rgb(34, 158, 45);
+}
+.socail-media a{
+    color: white;
+}
+/* ==========================================================================
+        Responsive Design For Tablet
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 1080px){
+   /* Diffult Style  */
+    .container{
+        margin: 50px;
+   } 
+   
+   /* Header Style  */
+   header{
+    padding: 0 20px;
+   }
+   header h1{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 0px;
+   }
+   header .button-box{
+    margin-top: 30px;
+   }
+   .head-details{
+    /* align-items: center; */
+   }
+   .head-details h1{
+    font-size: 40px;
+   }
+   .head-details p{
+    font-stretch: expanded;
+   }
+   .head-image{
+    width: 100%;
+   }
+   /* Main Section Style  */
+   .main{
+    display: grid;
+   }
+   .direction-boxes{
+    height: auto;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+   }
+   .box{
+    border: 0.5px solid #B9B9B9;
+    width: 95%;
+    margin: 0px;
+    /* padding: 0; */
+    /* width: 220px; */
+   }
+  
+   /* Cards Style */
+   .cards {
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       gap: 10px;
+   }
+   .view-all-button {
+       display: block;
+   }
+   
+   /* Footer Section  */
+   .footer-details{
+    margin: 0 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   }
+
+   .footer-details a{
+    
+   }
+   .media{
+    padding-bottom: 20px ;
+   }
+} 
+/* ==========================================================================
+        Responsive Design For Mobile
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 480px) {
+ /* Diffult Style  */
+    .container{
+    margin: 20px;
+ }
+ /* Header Section Style  */
+    header{
+        display: block;
+    }
+    .head-details{
+        padding-top: 20px;
+        text-align: center;
+    }
+    .head-details h1{
+        font-size: 35px;
+    }
+
+ /* Main Section Style  */
+
+ /* direction-boxes */
+    .direction-boxes{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+    .box{
+        width: 100%;
+        margin: 10px 0;
+    }
+    /* Cards Style  */
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+        .view-all-button {
+            display: none;
+        }
+    /* Footer Style  */
+    .footer-details{
+        display: block;
+    }
+}
+/* ==========================================================================
+
+-------------------------------------------------------------------------- */
+/* ==========================================================================
+
+-------------------------------------------------------------------------- */
