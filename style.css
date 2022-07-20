@@ -27,16 +27,7 @@ header{
     transition: all 2s;
 }
 header:hover{
-    /* transform: rotate(10deg); */
-    transform: rotateX(20deg);
-    /* transform: rotateY(20deg); */
-    /* transform: rotateZ(10deg); */
-    transform: scale();
-    transform: matrix();
-    transform: skew();
-    transform: perspective();
-    /* transform: translate(10px); */
-    /* transform: inherit; */
+    transform: scale(1.1);
 }
 .head-details{
     /* color: #B9B9B9; */
@@ -48,11 +39,6 @@ header:hover{
 .head-details p{
     color: #B9B9B9;
 }
-/* .blog-text{
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-} */
 .button-box{
     margin-top: 50px;
 }
@@ -71,6 +57,7 @@ header:hover{
     padding-bottom: 0;
     margin-bottom: 0;
     margin-top: 50px;
+    display: block;
 }
 .button-box i{
     padding-left: 10px;
@@ -113,9 +100,6 @@ button{
     text-decoration: none;
     color: #161616;
     padding-top: 18px;
-    /* padding: 10%; */
-    /* margin-bottom: 20px; */
-    /* border: 2px solid #B9B9B9; */
 }
 .box-1{
     background-color: #DD0000;
